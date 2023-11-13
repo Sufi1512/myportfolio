@@ -1,0 +1,46 @@
+.nav-profile-pic img{
+    margin-top: 10px;
+    margin-left:10px;
+    image-rendering: optimizeQuality;
+    width: 60px;
+    height: 60px;
+    border-radius: 90%;
+    margin-right: 10px;
+    display: flex;
+    cursor: pointer;
+    border: 1px solid #fff;
+    vertical-align: middle;
+    
+    /* align-items: center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        border: 1px solid #fff;
+        box-shadow: 0 0 5px #fff;
+    }
+}
+.nav-profile-toggle img{
+    width: 150px;
+    height: 150px;
+}
+.nav-item{
+    color: white;
+    margin-top: 30px;
+    /* text-align: center; */
+    margin-left: 25px;
+}
+.nav-link{
+    margin-top: 20px;
+    cursor: pointer; 
+    
+    /* size: 10px; */
+}
+.nav-link:hover{
+    color: #fa6609;
+
+}
+
+.nav-link svg{
+    margin-right: 10px;
+}

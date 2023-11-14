@@ -1,10 +1,13 @@
 .sidebar-section {
   display: flex;
   background-color: black;
+  
 
 }
 .layout {
   display: flex;
+  transition: margin-left 0.5s;
+  
  
 }
 .sidebar{
@@ -15,7 +18,7 @@
     
 }
 .sidebar-toggle{
-    width: 200px;
+    width: 230x;
 }
 .sidebar-toggleIo {
     display: flex;

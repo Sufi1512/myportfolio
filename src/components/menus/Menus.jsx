@@ -5,7 +5,7 @@ import {
   FcAbout,
  
   FcBusinessContact,
-  FcCollaboration,
+  
   FcCommandLine,
   FcHome,
   FcPositiveDynamic,
@@ -38,11 +38,7 @@ function Menus({ toggle }) {
                   <FcReading size={30} />
                 </div>
               </div>
-              <div className="nav-item">
-                <div className="nav-link" title="Experience">
-                  <FcPositiveDynamic size={30} />
-                </div>
-              </div>
+  
               <div className="nav-item">
                 <div className="nav-link" title="Tech Stack">
                   <FcStatistics size={30} />
@@ -54,8 +50,8 @@ function Menus({ toggle }) {
                 </div>
               </div>
               <div className="nav-item">
-                <div className="nav-link" title="Testimonials">
-                  <FcCollaboration size={30} />
+                <div className="nav-link" title="Experience">
+                  <FcPositiveDynamic size={30} />
                 </div>
               </div>
               <div className="nav-item">
@@ -90,12 +86,7 @@ function Menus({ toggle }) {
                   Education
                 </div>
               </div>
-              <div className="nav-item">
-                <div className="nav-link">
-                  <FcPositiveDynamic />
-                  Experience
-                </div>
-              </div>
+
               <div className="nav-item">
                 <div className="nav-link">
                   <FcStatistics />
@@ -110,8 +101,8 @@ function Menus({ toggle }) {
               </div>
               <div className="nav-item">
                 <div className="nav-link">
-                  <FcCollaboration />
-                  Testimonials
+                  <FcPositiveDynamic />
+                  Experience
                 </div>
               </div>
               <div className="nav-item">

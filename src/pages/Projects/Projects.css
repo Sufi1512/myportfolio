@@ -1,6 +1,6 @@
 .project{
     margin: 50px 0px;
-    margin-left: 150px;
+    margin-left: 140px;
    
 }
 .project hr{
@@ -36,7 +36,7 @@
     
 }
 
-.card img{
+ .project .card img{
     height: 300px;
     width: 100%;
 }
@@ -63,7 +63,7 @@
 .card-body  h5{
     font-size: 14px;
 }
-.card:hover{
+.project .card:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    
     background-color: white;

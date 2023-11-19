@@ -1,0 +1,21 @@
+.work{
+    padding: 100px 0px;
+    
+    margin-left: 210px;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 12px;
+   
+    margin-bottom: 60px;
+    padding-top: 50px;
+    margin-right: 40px;
+}
+.work hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+    }
+    .work h2{
+        font-weight: bold;
+        color :#1e1e2c;
+    
+    }

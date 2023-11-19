@@ -20,7 +20,7 @@
 .sidebar-toggle{
     width: 230x;
 }
-.sidebar-toggleIo {
+.sidebar-toggleIo p{
     display: flex;
     align-items: right;
     justify-content: right;

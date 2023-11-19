@@ -19,7 +19,7 @@ const Layout = () => {
         <div className={toggle ? "sidebar" : "sidebar sidebar-toggle"}>
           <div className="sidebar-toggleIo">
             <Menus toggle={toggle} />
-            <p onClick={togglehandle}>
+            <p className ="sidebar-toggleIo-menu" onClick={togglehandle}>
               {toggle ? (
                 <AiOutlineDoubleRight size={30} />
               ) : (
